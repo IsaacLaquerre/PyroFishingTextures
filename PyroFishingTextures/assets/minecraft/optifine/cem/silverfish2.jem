@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"texture": "crab.png",
 	"textureSize": [32, 32],
 	"models": [
@@ -12,48 +13,12 @@
 			"part": "body2",
 			"id": "body2",
 			"invertAxis": "xy",
-			"translate": [0, -3, 5]
-		},
-		{
-			"part": "body3",
-			"id": "body3",
-			"invertAxis": "xy",
-			"translate": [0, -4, 2.5]
-		},
-		{
-			"part": "body4",
-			"id": "body4",
-			"invertAxis": "xy",
-			"translate": [0, -3, -0.5]
-		},
-		{
-			"part": "body5",
-			"id": "body5",
-			"invertAxis": "xy",
-			"translate": [0, -2, -3.5]
-		},
-		{
-			"part": "body6",
-			"id": "body6",
-			"invertAxis": "xy",
-			"translate": [0, -1, -6]
-		},
-		{
-			"part": "body7",
-			"id": "body7",
-			"invertAxis": "xy",
-			"translate": [0, -1, -8]
-		},
-		{
-			"part": "wing1",
-			"id": "wing1",
-			"invertAxis": "xy",
-			"translate": [0, -8, 2.5],
+			"translate": [0, -3, 5],
 			"submodels": [
 				{
 					"id": "crab",
 					"invertAxis": "xy",
-					"translate": [0, 0, 0],
+					"translate": [0, 0, -3],
 					"rotate": [7.5, 0, 0],
 					"boxes": [
 						{
@@ -512,6 +477,42 @@
 					]
 				}
 			]
+		},
+		{
+			"part": "body3",
+			"id": "body3",
+			"invertAxis": "xy",
+			"translate": [0, -4, 2.5]
+		},
+		{
+			"part": "body4",
+			"id": "body4",
+			"invertAxis": "xy",
+			"translate": [0, -3, -0.5]
+		},
+		{
+			"part": "body5",
+			"id": "body5",
+			"invertAxis": "xy",
+			"translate": [0, -2, -3.5]
+		},
+		{
+			"part": "body6",
+			"id": "body6",
+			"invertAxis": "xy",
+			"translate": [0, -1, -6]
+		},
+		{
+			"part": "body7",
+			"id": "body7",
+			"invertAxis": "xy",
+			"translate": [0, -1, -8]
+		},
+		{
+			"part": "wing1",
+			"id": "wing1",
+			"invertAxis": "xy",
+			"translate": [0, -8, 2.5]
 		},
 		{
 			"part": "wing2",
